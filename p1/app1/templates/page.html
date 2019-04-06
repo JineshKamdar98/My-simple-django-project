@@ -1,0 +1,50 @@
+{% load staticfiles %}
+{% load static %}
+<html>
+<head>
+	<title>Page1</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'first.css' %}"/>
+</head>
+
+<body style="background-color: black;">
+	<table class="header">
+		<tr>
+			<td><h1 size=70% style="text-align: center;font-family: cursive;font-size: 45px;color: white;padding: 20px;margin: auto;">WWW.TvSeries.com</h1></td>
+			<td><p style="text-align: right;font-family: calibri light; font-size: 30px;margin: auto; padding-top: 0px;padding-right: 35px;color: white;padding-left: 785px;"><u><b>Sign Up</b></u></p></td>
+			<td><p style="text-align: right;font-family: calibri light; font-size: 30px;margin: auto; padding-top: 0px;padding-right: 35px;color: white;"><u><b>Login</b></u></p></td>
+		</tr>
+	</table>
+	<hr>
+
+	<ul>
+  		<li><a href="jk/">Home</a></li>
+  		<li><a href="#news">News</a></li>
+  		<li><a href="#contact">Contact</a></li>
+  		<li><a href="#about">About</a></li>
+  		<li><form><input type="text" name="searchbox" style="float:right;padding:6px 10px;margin-top: 8px;margin-right: 16px;margin-left:650px;font-size: 17px;border: none;" size="40" autocomplete="on" autofocus="on" placeholder="Search.."></input></form></li>
+  		<li><form><input type="button" name="search" value="Search" style="padding:6px 10px;margin-top: 8px;" size=40></input></form></li>
+	</ul>
+
+
+
+	<table>
+		<tr>
+			<td><img src="D:/Django/p1/app1/static/images/Arrow.jpg" alt="The Arrow" style="width: 250px;height: 350px;border: 2px solid red;"></td>
+			<td><img src="D:/Django/p1/app1/static/images/13ry.jpg" alt="13 Reasons Why" style="width: 250px;height: 350px;border: 2px solid red;"></td>
+			<td><img src="../static/images/lis.jpg" alt="Lost in Space" style="width: 250px;height: 350px;border: 2px solid red;"></td>
+			<td><img src="../static/images/st.jpg" alt="Stranger Things" style="width: 250px;height: 350px;border: 2px solid red;"></td>
+			<td><img src="../static/images/flash.jpg" alt="The Flash" style="width: 250px;height: 350px;border: 2px solid red;"></td>
+		</tr>
+		<tr>
+			<td><p style="font-size: 25px;font-family: algerian;color: green;padding-left: 1.2cm;"><u>The Arrow</u></p></td>
+			<td><p style="font-size: 25px;font-family: algerian;color: green;padding-left: 0.6cm;"><u>13 Reasons Why</u></p></td>
+			<td><p style="font-size: 25px;font-family: algerian;color: green;padding-left: 1.2cm;"><u>Lost In Space</u></p></td>
+			<td><p style="font-size: 25px;font-family: algerian;color: green;padding-left: 0.6cm;"><u>Stranger Things</u></p></td>
+			<td><p style="font-size: 25px;font-family: algerian;color: green;padding-left: 1.6cm;"><u>The Flash</u></p></td>
+	</table>
+
+	<div style="background-color: grey;">
+		<h2 style="color: white;font-size: 30px"><u>About Us:</u></h2>
+			<p style="color: white;font-size: 25px;font-family: bell-MT; margin: auto;padding-bottom: 10px">Hi!!  I am <em><b>Jinesh Kamdar</b></em> and this is my first website to download all the trending hollywood tv series. Enjoy your day....Thank you!!!</p>
+	</div>
+</body>	
